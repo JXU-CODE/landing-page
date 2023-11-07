@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+    margin:0px;
+    font-family:
+}
+
+.header{
+    background-color: #1f2937;
+    color:white;
+    display:flex;
+    padding:10px;
+}
+
+ul{
+    list-style-type: none;
+}
