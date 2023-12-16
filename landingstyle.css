@@ -7,7 +7,6 @@ body{
 
 img {
     max-width: 100%;
-    max-height: 100%;
 }
 
 .navbar {
@@ -51,8 +50,37 @@ img {
 
 .head-container{
     display:flex;
-
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 20px;
 }
 
+.left-cont{
+    flex:1;
+    margin-right: 20px;
+}
 
+.title-content{
+    font-size: 48px;
+        font-weight: bolder;
+    }
 
+.title-paragraph{
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+.sign{
+    color:White;
+    background-color: #3882f6;
+    border:0px;
+    padding: 8px 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.right-cont{
+    flex:1;
+}
