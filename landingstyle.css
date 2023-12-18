@@ -94,10 +94,11 @@ img {
 .boxcont{
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
     gap:52px;
     max-width: 960px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding-bottom:100px;
 }
 
 .boxes img {
@@ -121,5 +122,93 @@ img {
     max-width:150px;
 }
 
-/*QUOTE CONTENT!*/
+/*QUOTE CONTENT*/
 
+.quote{
+    background-color:#E5E7EB;
+}
+
+.qcont{
+    max-width: 960px;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    padding:50px 50px;
+}
+
+.qte{
+    flex:1;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+    margin-bottom: 0;
+
+}
+.ref1{
+    display:flex;
+    justify-content: flex-end;
+    font-size:26px;
+    margin-top:0;
+    margin-bottom: 20px;
+    font-weight:bold;
+}
+
+/*CALL CONTENT*/
+
+.signup{
+    padding:100px;
+}
+
+.signucont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius:10px;
+    margin:0 auto;
+    padding: 50px 125px;
+    max-width: 960px;
+    color:white;
+}
+.leftp{
+    display:flex;
+}
+
+.titlesu{
+    font-size: 24px;
+    margin:0 0;
+    padding:20 0;
+    font-weight:bold;
+}
+
+.sp{
+    font-size:18px;
+    margin: 0 0;
+    padding:0 0;
+    color:#E5E7EB;
+}
+
+.sign2{
+    background-color: #3882f6;
+    color:white;
+    border:white solid 2px;
+    border-radius:8px; 
+    padding: 8px 30px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+/*FOOTER CONTENT*/
+
+.footer{
+    background-color:#1f2937;
+    color:#E5E7EB;
+    font-size: 12px;
+}
+
+.footcont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
